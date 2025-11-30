@@ -3,13 +3,31 @@
 
   &__container {
     display: flex;
-    gap: 32px;
+    gap: 24px;
+    flex-direction: column;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      gap: 32px;
+    }
   }
 
   &__map {
     flex-shrink: 0;
-    border: none;
+    height: 176px;
+    margin: 0 -24px;
     border-radius: 16px;
+    border: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 320px;
+      height: 500px;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
+      width: 600px;
+      height: 595px;
+    }
   }
 
   &__form-field {
@@ -22,7 +40,6 @@
   }
 
   &__title {
-    max-width: 600px;
     margin-bottom: 16px;
   }
 }
