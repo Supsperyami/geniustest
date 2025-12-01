@@ -1,11 +1,11 @@
 {
   "folders": [
-	{
-		"name": "geniustest",
-		"path": "."
-	}
-],
+    {
+      "name": "pet",
+      "path": "."
+    }
+  ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "geniustest"
+    "liveServer.settings.multiRootWorkspaceName": "pet-project"
   }
 }
